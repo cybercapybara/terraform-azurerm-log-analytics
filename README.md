@@ -9,7 +9,7 @@ the workspace ID and shared key for wiring up diagnostic settings and agents.
 
 ```hcl
 module "log_analytics" {
-  source = "github.com/cybercapybara/terraform-azurerm-log-analytics"
+  source = "github.com/moveeeax/terraform-azurerm-log-analytics"
 
   name                = "prod-law"
   resource_group_name = "prod-rg"
